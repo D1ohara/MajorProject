@@ -1,4 +1,4 @@
-# MajorProject
+#20211504 MajorProject
 Your team, comprised of no more than two (2) persons, has been asked by the Department of Information Technology to develop an app that will provide students with access to departmental information, resources, and functions. The app will be developed according to the following specifications:
 
 
