@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/course_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        android:text="Course Code" />
+
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/course_code"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        android:text="Course Name" />
+
+    <TextView
+        android:id="@+id/course_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/course_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        android:text="Course Credits" />
+
+    <TextView
+        android:id="@+id/course_prerequisites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/course_credits"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        android:text="Course Prerequisites" />
+
+    <TextView
+        android:id="@+id/course_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/course_prerequisites"
+        android:layout_alignParentStart="true"
+        android:text="Course Description" />
+
+</RelativeLayout>

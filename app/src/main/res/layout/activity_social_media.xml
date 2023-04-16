@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/textview_background"
+        android:gravity="center"
+        android:text="University of the Commonwealth Caribbean SOCIAL MEDIA"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_text_view"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="95dp"
+                android:layout_margin="16dp">
+
+                <ImageView
+                    android:id="@+id/facebook_icon"
+                    android:layout_width="79dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="147dp"
+                    android:background="@drawable/ic_fb" />
+
+                <TextView
+                    android:id="@+id/facebook_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="108dp"
+                    android:layout_toEndOf="@id/facebook_icon"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/facebook_web_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/holo_yellow_dark" />
+
+            <RelativeLayout
+                android:layout_width="367dp"
+                android:layout_height="83dp"
+                android:layout_margin="16dp">
+
+                <ImageView
+                    android:id="@+id/twitter_icon"
+                    android:layout_width="83dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="147dp"
+                    android:background="@drawable/ic_twitter" />
+
+                <TextView
+                    android:id="@+id/twitter_text"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="115dp"
+                    android:layout_toEndOf="@id/twitter_icon"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/twitter_web_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/holo_yellow_dark" />
+
+            <RelativeLayout
+                android:layout_width="363dp"
+                android:layout_height="87dp"
+                android:layout_margin="16dp">
+
+                <ImageView
+                    android:id="@+id/instagram_icon"
+                    android:layout_width="83dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="146dp"
+                    android:background="@drawable/ic_instag" />
+
+                <TextView
+                    android:id="@+id/instagram_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="116dp"
+                    android:layout_toEndOf="@id/instagram_icon"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <WebView
+                android:id="@+id/instagram_web_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
